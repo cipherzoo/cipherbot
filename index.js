@@ -12,9 +12,9 @@ function getInfo(req,res){
 	res.json({
 			fulfillmentText:"",
 			fulfillmentMessages:[{
-					text : {
+					text : [
 						text: 'Your competitors are making a progress. '
-			}}]
+			]}]
 	});
 }
 
