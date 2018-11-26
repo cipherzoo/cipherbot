@@ -4,16 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "react-scripts start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tirumudi",
   "license": "ISC",
   "dependencies": {
-	"react-scripts": "^2.0.0",
     "express": "^4.16.4",
     "dialogflow-fulfillment": "^0.4.1",
     "body-parser": "^1.18.3",
     "actions-on-google": "^2.2.0"
-  }
+  } 
 }
