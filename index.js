@@ -10,9 +10,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 function getInfo(req,res){
 	res.json({
-		text : {
-            text: 'Your competitors are making a progress. '
-		}
+			fulfillmentText:"",
+			fulfillmentMessages:[{
+					text : {
+						text: 'Your competitors are making a progress. '
+			}}]
 	});
 }
 
