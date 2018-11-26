@@ -22,7 +22,7 @@ function WebhookProcessing(req, res) {
     console.info(`agent set`);
 
     let intentMap = new Map();
-    intentMap.set('Default Welcome Intent', welcome);
+    //intentMap.set('Default Welcome Intent', welcome);
     intentMap.set('Default Fallback Intent', fallback);
 	intentMap.set('get-updates', getUpdates);
     agent.handleRequest(intentMap);
