@@ -12,10 +12,10 @@ function getInfo(req,res){
 	res.json({
 			fulfillmentText:"",
 			fulfillmentMessages:[{
-					text : [
-					Object('Your competitors are making a progress.')
-			]}]
-	});
+					message : {text : 'Your competitors are making a progress.'}
+					
+			}]}
+	);
 }
 
 // Webhook
