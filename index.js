@@ -33,6 +33,6 @@ app.post('/', function (req, res) {
     WebhookProcessing(req, res);
 });
 
-app.listen(8082, function () {
-    console.info(`Webhook listening on port 8082!`)
+app.listen(process.env.PORT || 8082, function () {
+    console.info(`Webhook listening`)
 });
