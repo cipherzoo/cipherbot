@@ -10,8 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 function getInfo(req,res){
 	res.json({
-            textToSpeech: 'Your competitors are making a progress. ',
-            displayText: 'Campaigns to run'
+            text: 'Your competitors are making a progress. '
     });
 }
 
