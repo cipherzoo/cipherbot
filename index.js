@@ -13,7 +13,7 @@ function getInfo(req,res){
 			fulfillmentText:"",
 			fulfillmentMessages:[{
 					text : [
-					{text: 'Your competitors are making a progress. '}
+					'Your competitors are making a progress. '
 			]}]
 	});
 }
